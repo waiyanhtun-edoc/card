@@ -1,0 +1,27 @@
+*,::before,::after{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+ul li{
+    background-color: aqua ;
+    padding: 1em 2em;
+    border-radius: 4px;
+    outline: 2px solid black;
+    outline-offset: 4px;
+
+}
+
+ul li:hover{
+    transform: translateY(-20%);
+    transition:all ease-in-out 1000ms;
+    border-bottom: 2px solid red;
+    box-shadow: 0px 2px 0px 2px  black;
+}
